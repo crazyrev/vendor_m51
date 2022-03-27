@@ -5,7 +5,9 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/m51
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/samsung/m51/proprietary/vendor,$(TARGET_COPY_OUT_VENDOR) \
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/samsung/m51/proprietary/vendor,$(TARGET_COPY_OUT_VENDOR))
+
+PRODUCT_PACKAGES += \
     lights-default-sec
 
 # ADSPRPC
