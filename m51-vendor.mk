@@ -130,7 +130,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/common/vendor/lib64/libcodec2_sec_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_mp3dec.so \
     vendor/samsung/m51/common/vendor/lib64/libcodec2_sec_mp43dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_mp43dec.so \
     vendor/samsung/m51/common/vendor/lib64/libcodec2_sec_mp4vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_mp4vdec.so \
-    vendor/samsung/m51/common/vendor/lib64/libcodec2_sec_soft_m51.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_soft_m51.so \
+    vendor/samsung/m51/common/vendor/lib64/libcodec2_sec_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_soft_common.so \
     vendor/samsung/m51/common/vendor/lib64/libcodec2_sec_vc1dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_vc1dec.so \
     vendor/samsung/m51/common/vendor/lib64/libcodec2_sec_wmadec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_wmadec.so \
     vendor/samsung/m51/common/vendor/lib64/libcodec2_sec_wmv7dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_wmv7dec.so \
@@ -369,7 +369,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/common/system/lib/libMyFilterPlugin.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libMyFilterPlugin.camera.samsung.so \
     vendor/samsung/m51/common/system/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOpenCv.camera.samsung.so \
     vendor/samsung/m51/common/system/lib/libphotoeditorEngine.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libphotoeditorEngine.camera.samsung.so \
-    vendor/samsung/m51/common/system/lib/libQREngine_m51.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libQREngine_m51.camera.samsung.so \
+    vendor/samsung/m51/common/system/lib/libQREngine_common.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libQREngine_common.camera.samsung.so \
     vendor/samsung/m51/common/system/lib/libRectify.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libRectify.camera.samsung.so \
     vendor/samsung/m51/common/system/lib/libsaiv_HprFace_api.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsaiv_HprFace_api.camera.samsung.so \
     vendor/samsung/m51/common/system/lib/libsaiv_HprFace_cmh_support_jni.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsaiv_HprFace_cmh_support_jni.camera.samsung.so \
@@ -441,7 +441,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/common/system/lib64/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libOpenCv.camera.samsung.so \
     vendor/samsung/m51/common/system/lib64/libphotoeditorEngine.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libphotoeditorEngine.camera.samsung.so \
     vendor/samsung/m51/common/system/lib64/libPortraitSolution.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libPortraitSolution.camera.samsung.so \
-    vendor/samsung/m51/common/system/lib64/libQREngine_m51.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libQREngine_m51.camera.samsung.so \
+    vendor/samsung/m51/common/system/lib64/libQREngine_common.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libQREngine_common.camera.samsung.so \
     vendor/samsung/m51/common/system/lib64/libRectify.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libRectify.camera.samsung.so \
     vendor/samsung/m51/common/system/lib64/libsaiv_HprFace_api.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsaiv_HprFace_api.camera.samsung.so \
     vendor/samsung/m51/common/system/lib64/libsaiv_HprFace_cmh_support_jni.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsaiv_HprFace_cmh_support_jni.camera.samsung.so \
@@ -523,12 +523,12 @@ PRODUCT_COPY_FILES += \
 # CVP
 PRODUCT_COPY_FILES += \
     vendor/samsung/m51/common/vendor/lib/libcvp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp2.so \
-    vendor/samsung/m51/common/vendor/lib/libcvp_m51.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp_m51.so \
+    vendor/samsung/m51/common/vendor/lib/libcvp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp_common.so \
     vendor/samsung/m51/common/vendor/lib/libcvpcpuRev_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvpcpuRev_skel.so \
     vendor/samsung/m51/common/vendor/lib/libcvp2_hfi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp2_hfi.so \
     vendor/samsung/m51/common/vendor/lib/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cvp@1.0.so \
     vendor/samsung/m51/common/vendor/lib64/libcvp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp2.so \
-    vendor/samsung/m51/common/vendor/lib64/libcvp_m51.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp_m51.so \
+    vendor/samsung/m51/common/vendor/lib64/libcvp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp_common.so \
     vendor/samsung/m51/common/vendor/lib64/libcvpcpuRev_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvpcpuRev_skel.so \
     vendor/samsung/m51/common/vendor/lib64/libcvp2_hfi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp2_hfi.so \
     vendor/samsung/m51/common/vendor/lib64/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cvp@1.0.so
@@ -570,7 +570,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/common/vendor/lib64/libsdm-colormgr-algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-colormgr-algo.so \
     vendor/samsung/m51/common/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
     vendor/samsung/m51/common/vendor/lib64/unnhal-acc-adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-adreno.so \
-    vendor/samsung/m51/common/vendor/lib64/unnhal-acc-m51.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-m51.so \
+    vendor/samsung/m51/common/vendor/lib64/unnhal-acc-common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-common.so \
     vendor/samsung/m51/common/vendor/lib64/unnhal-acc-hta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-hta.so \
     vendor/samsung/m51/common/vendor/lib64/unnhal-acc-hvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-hvx.so
 
@@ -662,14 +662,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/common/vendor/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc \
     vendor/samsung/m51/common/vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc \
     vendor/samsung/m51/common/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
-    vendor/samsung/m51/common/vendor/lib/libbauthtzm51.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzm51.so \
+    vendor/samsung/m51/common/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
     vendor/samsung/m51/common/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/m51/common/vendor/lib/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_in_system_lib.so \
     vendor/samsung/m51/common/vendor/lib/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp_sensortest.so \
     vendor/samsung/m51/common/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/m51/common/vendor/lib/vendor.samsung.hardware.biometrics.face@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.biometrics.face@2.0.so \
     vendor/samsung/m51/common/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
-    vendor/samsung/m51/common/vendor/lib64/libbauthtzm51.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzm51.so \
+    vendor/samsung/m51/common/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
     vendor/samsung/m51/common/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
     vendor/samsung/m51/common/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
     vendor/samsung/m51/common/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
@@ -940,7 +940,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/common/vendor/lib64/libMpeghSwEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMpeghSwEnc.so \
     vendor/samsung/m51/common/vendor/lib64/libMpeg4SwEncoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMpeg4SwEncoder.so \
     vendor/samsung/m51/common/vendor/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
-    vendor/samsung/m51/common/vendor/lib64/libmpp_m51.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp_m51.so \
+    vendor/samsung/m51/common/vendor/lib64/libmpp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp_common.so \
     vendor/samsung/m51/common/vendor/lib64/libmppdeflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmppdeflicker.so \
     vendor/samsung/m51/common/vendor/lib64/libmppfrc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmppfrc.so \
     vendor/samsung/m51/common/vendor/lib64/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAacDec.so \
@@ -1100,7 +1100,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/common/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
     vendor/samsung/m51/common/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so \
     vendor/samsung/m51/common/vendor/lib/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_qmux.so \
-    vendor/samsung/m51/common/vendor/lib/libqmi_m51_so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_m51_so.so \
+    vendor/samsung/m51/common/vendor/lib/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_common_so.so \
     vendor/samsung/m51/common/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
     vendor/samsung/m51/common/vendor/lib/libqmi_csvt_srvc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csvt_srvc.so \
     vendor/samsung/m51/common/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
@@ -1117,7 +1117,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/common/vendor/lib64/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci.so \
     vendor/samsung/m51/common/vendor/lib64/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_helper.so \
     vendor/samsung/m51/common/vendor/lib64/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_qmux.so \
-    vendor/samsung/m51/common/vendor/lib64/libqmi_m51_so.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_m51_so.so \
+    vendor/samsung/m51/common/vendor/lib64/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_common_so.so \
     vendor/samsung/m51/common/vendor/lib64/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_csi.so \
     vendor/samsung/m51/common/vendor/lib64/libqmi_csvt_srvc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_csvt_srvc.so \
     vendor/samsung/m51/common/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so \
@@ -1133,7 +1133,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/common/system/bin/sec_diag_uart_log:$(TARGET_COPY_OUT_SYSTEM)/bin/sec_diag_uart_log \
     vendor/samsung/m51/common/system/bin/smdexe:$(TARGET_COPY_OUT_SYSTEM)/bin/smdexe \
     vendor/samsung/m51/common/system/etc/init/init.rilchip.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.rilchip.rc \
-    vendor/samsung/m51/common/system/etc/init/init.rilm51.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.rilm51.rc \
+    vendor/samsung/m51/common/system/etc/init/init.rilcommon.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.rilcommon.rc \
     vendor/samsung/m51/common/system/etc/init/init.rilepdg.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.rilepdg.rc \
     vendor/samsung/m51/common/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/samsung/m51/common/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
@@ -1163,7 +1163,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/common/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/samsung/m51/common/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/samsung/m51/common/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
-    vendor/samsung/m51/common/vendor/etc/init/init.vendor.rilm51.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilm51.rc \
+    vendor/samsung/m51/common/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/m51/common/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/samsung/m51/common/vendor/etc/init/ipacm-diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm-diag.rc \
     vendor/samsung/m51/common/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
@@ -1175,7 +1175,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/common/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/samsung/m51/common/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/samsung/m51/common/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
-    vendor/samsung/m51/common/vendor/lib/libnetmgr_m51.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_m51.so \
+    vendor/samsung/m51/common/vendor/lib/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_common.so \
     vendor/samsung/m51/common/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
     vendor/samsung/m51/common/vendor/lib/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdnotifier.so \
     vendor/samsung/m51/common/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
@@ -1189,7 +1189,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/common/vendor/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsi_netctrl.so \
     vendor/samsung/m51/common/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
     vendor/samsung/m51/common/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
-    vendor/samsung/m51/common/vendor/lib64/libnetmgr_m51.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_m51.so \
+    vendor/samsung/m51/common/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
     vendor/samsung/m51/common/vendor/lib64/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnlnetmgr.so \
     vendor/samsung/m51/common/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/samsung/m51/common/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
@@ -1334,7 +1334,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/m51/common/vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.scve.objecttracker@1.0.so \
     vendor/samsung/m51/common/vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.scve.panorama@1.0.so \
-    vendor/samsung/m51/common/vendor/lib64/libscvem51.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvem51.so \
+    vendor/samsung/m51/common/vendor/lib64/libscvecommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvecommon.so \
     vendor/samsung/m51/common/vendor/lib64/libscvem51_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvem51_stub.so \
     vendor/samsung/m51/common/vendor/lib64/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation.so \
     vendor/samsung/m51/common/vendor/lib64/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation_stub.so \
